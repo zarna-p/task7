@@ -1,0 +1,48 @@
+.main-container{
+  position: relative;
+  background-color: #C8C4C4;
+  width: 100vw;
+  height: 100vh;
+}
+.sub-container{
+  position: absolute;
+  background-color: white;
+  margin: 40px 35px 0px;
+width:98vw;
+}
+.container1{
+  position:absolute;
+  background-color:white;
+    padding: 20px 20px 0;
+  width:95%;
+}
+.health-icon{
+  width:29px;
+  height: 27px;
+  object-fit: cover;
+}
+.main-nav{
+
+}
+.icon-name{
+  display: inline-block;
+  padding: 5px;
+}
+.health-icon,.icon-name{
+  float:left;
+}
+.navbar{
+  float:right;
+}
+.tab{
+  display: inline-block;
+
+}
+a{
+  text-decoration: none;
+  padding: 15px;
+}
+.live-button{
+  float:right;
+}
+/*https://dribbble.com/shots/17529559-Medical-Healthcare-service-web-design/attachments/12671318?mode=media*/
