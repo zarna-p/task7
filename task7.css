@@ -32,6 +32,7 @@ width:98vw;
   float:left;
 }
 .navbar{
+  display: flex;
   float:right;
 }
 .tab{
@@ -43,6 +44,38 @@ a{
   padding: 15px;
 }
 .live-button{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  color:white;
   float:right;
+ background-color: blue;
+ border:none;
+ border-radius: 30px;
+ height: 50px;
+ width:160px;
+ box-shadow: 2px 7px 20px -4px blue;
+}
+
+.container2{
+  background-color: inherit;
+  position: absolute;
+  top:70px;
+  display: flex;
+  width:100vw;
+}
+.artical1{
+  flex:1;
+  height:200px;
+  color:black;
+  border:2px solid black;
+}
+.artical2{
+  flex:1;
+  height: 200px;
+
+}
+h2{
+  border:2px solid blue;
 }
 /*https://dribbble.com/shots/17529559-Medical-Healthcare-service-web-design/attachments/12671318?mode=media*/
